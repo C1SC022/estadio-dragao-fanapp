@@ -14,7 +14,7 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
  */
 const sidebars: SidebarsConfig = {
   // By default, Docusaurus generates a sidebar from the docs folder structure
-  docsSidebar: [
+  calendarSidebar: [
     {
       type: 'category',
       label: 'how',
@@ -26,18 +26,22 @@ const sidebars: SidebarsConfig = {
       ],   
     }
   ],
-  workSidebar: [
+  milestoneSidebar: [
   {
     type: 'category',
-    label:'Week 01',
+    label:'Milestone 01',
     items: [
       {
         type: 'doc',
-        id: 'personas',
+        id: 'milestone01/personas',
       },
       {
         type:'doc',
-        id: 'user_stories',
+        id: 'milestone01/user_stories',
+      },
+      {
+        type: 'doc',
+        id: 'milestone01/extras',
       },
       {
         type: 'category',
@@ -45,26 +49,26 @@ const sidebars: SidebarsConfig = {
         items: [
           {
             type: 'doc',
-            id: 'functional_requirements',
+            id: 'milestone01/functional_requirements',
           },
           {
             type: 'doc',
-            id: 'non_functional_requirements',
+            id: 'milestone01/non_functional_requirements',
           },
-        ]
+        ],
       },
     ],
   },
   {
     type: 'category',
-    label:'Week 02',
+    label:'Milestone 02',
     items: [
       {
         type: 'doc',
         id: 'untitled',
       },
     ],
-  }
+  },
 ],
 
   // But you can create a sidebar manually
