@@ -78,7 +78,7 @@ const FeatureList: FeatureItem[] = [
 
 function Feature({title, Svg, description}: FeatureItem) {
   return (
-    <div className={clsx('col col--4', styles.featureCard)}>
+    <div className={(styles.featureCard)}>
       <div className={styles.iconWrap}>
         <Svg className={styles.featureSvg} role="img" />
       </div>
@@ -91,15 +91,24 @@ function Feature({title, Svg, description}: FeatureItem) {
 }
 
 export default function HomepageFeatures(): ReactNode {
+  const firstRow = FeatureList.slice(0, 3);
+  const secondRow = FeatureList.slice(3);
+
   return (
     <section className={styles.features}>
       <div className="container">
-        <div className="row">
-          {FeatureList.map((props, idx) => (
+        <div className={styles.row}>
+          {firstRow.map((props, idx) => (
             <Feature key={idx} {...props} />
+          ))}
+        </div>
+        <div className={styles.row}>
+          {secondRow.map((props, idx) => (
+            <Feature key={idx + 3} {...props} />
           ))}
         </div>
       </div>
     </section>
   );
 }
+
