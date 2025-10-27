@@ -6,8 +6,12 @@ import Layout from '@theme/Layout';
 
 import Heading from '@theme/Heading'
 
-import index from './index.module.css'
 import aboutus from './aboutUs.module.css';
+import styles from './index.module.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUsers } from '@fortawesome/free-solid-svg-icons';
+
+
 
 
 function AboutMe() {
@@ -45,19 +49,30 @@ function AboutMe() {
 export default function AboutUs() {
     const {siteConfig} = useDocusaurusContext();
     return (
-        <Layout
+       <Layout
         title={`Hello from ${siteConfig.title}`}
         description="Description will go into a meta tag in <head />">
-            <header className={clsx('hero hero--primary', index.heroBanner)}>
-                <Heading as="h1" className="hero__title">
-                    About Us
-                </Heading>
-                <p className="hero__subtitle">Meet the project team</p>
-            </header>
+        <header className={clsx('hero hero--primary', styles.heroBanner)}>
+        <div className={styles.heroInner}>
+            {/* Coluna esquerda: título e subtítulo */}
+            <div className={styles.heroLeft}>
+            <Heading as="h1" className={styles.mainTitle}>
+                About Us
+            </Heading>
+            <p className={styles.subTitle}>Meet the project team</p>
+            </div>
 
-            <main style={{ padding: '2rem 0' }}>
-                <AboutMe />
-            </main>
+            {/* Coluna direita: ícone isolado */}
+            <div className={styles.heroRight}>
+            <FontAwesomeIcon icon={faUsers} className={styles.titleIcon} />
+            </div>
+        </div>
+        </header>
+
+        <main style={{ padding: '2rem 0' }}>
+            <AboutMe />
+        </main>
         </Layout>
+
     );
 }
