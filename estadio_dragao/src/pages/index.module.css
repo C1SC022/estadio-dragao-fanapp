@@ -57,7 +57,7 @@
   width: 360px;
   height: 220px;
   background: #ffffff;
-  color: #0b63ff;
+  color: var(--ifm-color-primary);
   border-radius: 14px;
   display: flex;
   align-items: center;
