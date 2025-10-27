@@ -16,12 +16,16 @@ import { faUsers } from '@fortawesome/free-solid-svg-icons';
 
 function AboutMe() {
     const members = [
-        { name: 'Tomás Gameiro', role: 'Project Management' },
-        { name: 'Francisco Silva', role: 'Mobile / UI' },
-        { name: 'João Cabral', role: 'Backend / APIs' },
-        { name: 'Bernardo Martins', role: 'Modeling / Analytics' },
-        { name: 'Gonçalo Floro', role: 'QA / DevOps' },
+        { name: 'Tomás Gameiro', role: 'Project Management', url: 'https://github.com/LeTomarrow' },
+        { name: 'Francisco Silva', role: 'Mobile / UI', url: 'https://github.com/C1SC022'  },
+        { name: 'João Cabral', role: 'Backend / APIs' , url: 'https://github.com/JoaoCabral05' },
+        { name: 'Bernardo Martins', role: 'Modeling / Analytics' , url: 'https://github.com/Oxx05'},
+        { name: 'Gonçalo Floro', role: 'QA / DevOps' , url: 'https://github.com/goncalo-floro' },
     ];
+
+    const handleClick = (url: string) => {
+        window.open(url, '_blank');
+    };
 
     const initials = (fullName: string) =>
         fullName
@@ -31,19 +35,26 @@ function AboutMe() {
             .join('')
             .toUpperCase();
 
-    return (
-        <div className={aboutus.teamWrapper}>
-            <div className={aboutus.teamGrid}>
-                {members.map((m) => (
-                    <div className={aboutus.card} key={m.name}>
-                        <div className={aboutus.avatar} aria-hidden>{initials(m.name)}</div>
-                        <h3 className={aboutus.name}>{m.name}</h3>
-                        <p className={aboutus.role}>{m.role}</p>
-                    </div>
-                ))}
+      return (
+    <div className={aboutus.teamWrapper}>
+      <div className={aboutus.teamGrid}>
+        {members.map((m) => (
+          <div
+            className={aboutus.card}
+            key={m.name}
+            onClick={() => handleClick(m.url)}
+            style={{ cursor: 'pointer' }}
+            title={`Abrir GitHub de ${m.name}`}>
+            <div className={aboutus.avatar} aria-hidden>
+              {initials(m.name)}
             </div>
-        </div>
-    );
+            <h3 className={aboutus.name}>{m.name}</h3>
+            <p className={aboutus.role}>{m.role}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
 }
 
 export default function AboutUs() {
@@ -54,7 +65,6 @@ export default function AboutUs() {
         description="Description will go into a meta tag in <head />">
         <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className={styles.heroInner}>
-            {/* Coluna esquerda: título e subtítulo */}
             <div className={styles.heroLeft}>
             <Heading as="h1" className={styles.mainTitle}>
                 About Us
@@ -62,7 +72,6 @@ export default function AboutUs() {
             <p className={styles.subTitle}>Meet the project team</p>
             </div>
 
-            {/* Coluna direita: ícone isolado */}
             <div className={styles.heroRight}>
             <FontAwesomeIcon icon={faUsers} className={styles.titleIcon} />
             </div>
