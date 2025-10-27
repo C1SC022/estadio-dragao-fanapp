@@ -6,7 +6,9 @@ import Layout from '@theme/Layout';
 
 import Heading from '@theme/Heading'
 
-import styles from './index.module.css';
+import index from './index.module.css'
+import aboutus from './aboutUs.module.css';
+
 
 function AboutMe() {
     const members = [
@@ -26,13 +28,13 @@ function AboutMe() {
             .toUpperCase();
 
     return (
-        <div className={styles.teamWrapper}>
-            <div className={styles.teamGrid}>
+        <div className={aboutus.teamWrapper}>
+            <div className={aboutus.teamGrid}>
                 {members.map((m) => (
-                    <div className={styles.card} key={m.name}>
-                        <div className={styles.avatar} aria-hidden>{initials(m.name)}</div>
-                        <h3 className={styles.name}>{m.name}</h3>
-                        <p className={styles.role}>{m.role}</p>
+                    <div className={aboutus.card} key={m.name}>
+                        <div className={aboutus.avatar} aria-hidden>{initials(m.name)}</div>
+                        <h3 className={aboutus.name}>{m.name}</h3>
+                        <p className={aboutus.role}>{m.role}</p>
                     </div>
                 ))}
             </div>
@@ -46,7 +48,7 @@ export default function AboutUs() {
         <Layout
         title={`Hello from ${siteConfig.title}`}
         description="Description will go into a meta tag in <head />">
-            <header className={clsx('hero hero--primary', styles.heroBanner)}>
+            <header className={clsx('hero hero--primary', index.heroBanner)}>
                 <Heading as="h1" className="hero__title">
                     About Us
                 </Heading>
