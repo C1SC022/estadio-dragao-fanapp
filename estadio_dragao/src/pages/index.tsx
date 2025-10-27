@@ -12,17 +12,32 @@ function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
+      <div className={styles.heroInner}>
+        <div className={styles.heroLeft}
+          >
+          <Heading as="h1" className={styles.mainTitle}>
+            Smart Stadium
+          </Heading>
+
+          <p className={styles.subTitle}>A better game-day, in your pocket</p>
+
+          <p className={styles.heroDesc}>
+            Real-time navigation, crowd insights and safety alerts — fast, private.
+          </p>
+
+          <div className={styles.heroActions}>
+            <Link className="button button--primary button--lg" to="#">
+              Get the app
+            </Link>
+            <Link className="button button--secondary button--lg" to="/docs/intro">
+              Learn more
+            </Link>
+          </div>
+        </div>
+
+        <div className={styles.heroRight}>
+          {/* Image slot: place an <img src="/img/your-image.png" alt="App mockup" /> here */}
+          <div className={styles.imagePlaceholder} aria-hidden>App image</div>
         </div>
       </div>
     </header>

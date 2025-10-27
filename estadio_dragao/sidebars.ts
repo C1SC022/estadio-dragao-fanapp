@@ -33,29 +33,7 @@ const sidebars: SidebarsConfig = {
     items: [
       {
         type: 'doc',
-        id: 'milestone01/personas',
-      },
-      {
-        type:'doc',
-        id: 'milestone01/user_stories',
-      },
-      {
-        type: 'doc',
-        id: 'milestone01/extras',
-      },
-      {
-        type: 'category',
-        label: 'Requirements',
-        items: [
-          {
-            type: 'doc',
-            id: 'milestone01/functional_requirements',
-          },
-          {
-            type: 'doc',
-            id: 'milestone01/non_functional_requirements',
-          },
-        ],
+        id: 'untitled',
       },
     ],
   },
@@ -63,9 +41,32 @@ const sidebars: SidebarsConfig = {
     type: 'category',
     label:'Milestone 02',
     items: [
+      
       {
         type: 'doc',
-        id: 'untitled',
+        id: 'milestone02/personas',
+      },
+      {
+        type:'doc',
+        id: 'milestone02/user_stories',
+      },
+      {
+        type: 'doc',
+        id: 'milestone02/extras',
+      },
+      {
+        type: 'category',
+        label: 'Requirements',
+        items: [
+          {
+            type: 'doc',
+            id: 'milestone02/functional_requirements',
+          },
+          {
+            type: 'doc',
+            id: 'milestone02/non_functional_requirements',
+          },
+        ],
       },
     ],
   },

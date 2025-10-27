@@ -1,13 +1,22 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
+/*
+ * CSS module for the homepage and About Us page
  */
 
 .heroBanner {
   padding: 4rem 0;
-  text-align: center;
   position: relative;
   overflow: hidden;
+  background: linear-gradient(135deg, #0b63ff 0%, #075985 100%); /* blue tones */
+  color: #ffffff;
+}
+
+.heroBanner::before {
+  /* subtle overlay to smooth gradient */
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(2,6,23,0.18), rgba(2,6,23,0.06));
+  pointer-events: none;
 }
 
 @media screen and (max-width: 996px) {
@@ -20,4 +29,190 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* --- Hero layout (two-column with image slot) --- */
+.heroInner {
+  display: grid;
+  grid-template-columns: 1fr 420px;
+  gap: 2rem;
+  align-items: center;
+  max-width: 1150px;
+  margin: 0 auto;
+  position: relative;
+  padding: 2rem 1rem; /* breathing room inside the blue hero */
+}
+
+.heroLeft {
+  text-align: left;
+}
+
+.heroRight {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagePlaceholder {
+  width: 360px;
+  height: 220px;
+  background: #ffffff;
+  color: #0b63ff;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 12px 30px rgba(2,6,23,0.25);
+  font-weight: 700;
+}
+
+.mainTitle {
+  font-size: 2.6rem;
+  line-height: 1.03;
+  margin: 0;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+.subTitle {
+  margin: 0 0 0.8rem 0;
+  color: rgba(255,255,255,0.95);
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.heroDesc {
+  max-width: 620px;
+  margin: 0 0 1.25rem 0;
+  color: rgba(255,255,255,0.92);
+  font-size: 0.98rem;
+}
+
+.heroActions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 0.25rem;
+}
+
+/* Make buttons high-contrast on hero */
+.heroActions .button--primary {
+  background: #ffffff !important;
+  color: #0b63ff !important;
+}
+.heroActions .button--secondary {
+  background: transparent !important;
+  border: 1px solid rgba(255,255,255,0.18) !important;
+  color: rgba(255,255,255,0.95) !important;
+}
+
+@media screen and (min-width: 1100px) {
+  .mainTitle {
+    font-size: 3.6rem;
+  }
+  .heroDesc {
+    font-size: 1.05rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .heroInner {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .heroLeft {
+    text-align: center;
+  }
+  .heroRight {
+    margin-top: 1rem;
+  }
+  .imagePlaceholder {
+    width: 280px;
+    height: 180px;
+  }
+}
+
+/* --- Team / About Us styles --- */
+.teamWrapper {
+  padding: 2rem 0;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.teamGrid {
+  display: grid;
+  /* fixed column widths so rows with fewer items can be centered */
+  grid-template-columns: repeat(3, 260px);
+  gap: 1.25rem;
+  justify-content: center; /* center the grid within the wrapper */
+  justify-items: center; /* center items within their column */
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 1.25rem;
+  box-shadow: 0 6px 18px rgba(20, 20, 20, 0.06);
+  text-align: center;
+  color: #0b1726;
+  transition: transform 160ms ease, box-shadow 160ms ease;
+  width: 100%;
+  max-width: 260px; /* match column width */
+  box-sizing: border-box;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(20, 20, 20, 0.12);
+}
+
+.avatar {
+  width: 84px;
+  height: 84px;
+  line-height: 84px;
+  border-radius: 50%;
+  margin: 0 auto 0.75rem auto;
+  font-weight: 700;
+  color: #fff;
+  background: linear-gradient(135deg, #4f46e5 0%, #06b6d4 100%);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+}
+
+.name {
+  margin: 0.25rem 0 0.25rem 0;
+  font-size: 1.05rem;
+}
+
+.role {
+  margin: 0;
+  color: #666;
+  font-size: 0.95rem;
+}
+
+@media screen and (max-width: 520px) {
+  .avatar {
+    width: 64px;
+    height: 64px;
+    line-height: 64px;
+    font-size: 1.05rem;
+  }
+}
+
+/* Responsive columns: 2 columns on medium screens, 1 on small */
+@media screen and (max-width: 900px) {
+  .teamGrid {
+    grid-template-columns: repeat(2, 260px);
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .teamGrid {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+  .card {
+    max-width: 420px;
+  }
 }
