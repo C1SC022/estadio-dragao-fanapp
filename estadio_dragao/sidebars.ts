@@ -32,9 +32,12 @@ const sidebars: SidebarsConfig = {
     label:'Milestone 01',
     items: [
       {
-        type: 'doc',
-        id: 'untitled',
-      },
+  type: 'doc',
+  id: 'milestone01/Presentation',
+  label: 'Presentation',
+}
+
+
     ],
   },
   {

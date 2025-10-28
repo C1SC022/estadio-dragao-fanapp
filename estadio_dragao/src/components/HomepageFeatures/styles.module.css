@@ -59,7 +59,7 @@
 
 .cardBody p {
   margin: 0;
-  color: #334155;
+  color: var(--ifm-);
   font-size: 0.95rem;
 }
 

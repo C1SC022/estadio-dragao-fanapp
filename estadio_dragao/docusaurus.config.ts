@@ -85,15 +85,16 @@ const config: Config = {
           label: 'Milestones',
         },
         {
-          type: 'docSidebar',
-          sidebarId: 'calendarSidebar',
+          to: '/calendar',
           position: 'left',
           label: 'Calendar',
+          activeBaseRegex: '^/calendar', 
         },
         {
           to: '/aboutUs',
           position: 'right',
           label: 'About Us',
+          activeBaseRegex: '^/aboutUs', 
         },
       ],
     },
