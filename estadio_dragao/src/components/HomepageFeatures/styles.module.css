@@ -19,7 +19,7 @@
 }
 
 .featureCard {
-  background: #ffffff;
+  background: var(--ifm-);
   border-radius: 12px;
   padding: 1.5rem;
   box-shadow: 0 8px 24px rgba(2, 6, 23, 0.06);
@@ -33,13 +33,17 @@
 }
 
 .iconWrap {
-  background: linear-gradient(135deg,#e6f0ff, #e8fcff);
+  background: linear-gradient(135deg, var(--ifm-color-primary-lightest), var(--ifm-color-primary-light));
   padding: 12px;
   border-radius: 999px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 0.75rem;
+}
+
+.icon {
+  color: var(--ifm-color-primary);
 }
 
 .featureSvg {
@@ -50,7 +54,7 @@
 .cardBody h3 {
   margin: 0.25rem 0;
   font-size: 1.05rem;
-  color: var(--ifm-color-primary)
+  color: var(--ifm-)
 }
 
 .cardBody p {

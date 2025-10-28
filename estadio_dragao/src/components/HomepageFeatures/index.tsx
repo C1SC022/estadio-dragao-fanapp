@@ -3,9 +3,12 @@ import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faRoute, faSignal, faLanguage, faExclamation, faMapLocationDot, IconDefinition} from '@fortawesome/free-solid-svg-icons';
+
 type FeatureItem = {
   title: string;
-  icon: FontAwesomeIcon;
+  icon: IconDefinition;
   description: ReactNode;
 };
 
@@ -13,36 +16,36 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Smart Indoor Navigation',
-    
+    icon: faRoute,
     description: 'Guide fans to entrances, seats and exits; dynamic re-routing.',
   },
   {
     title: 'Real-Time Congestion',
-    
+    icon: faMapLocationDot,
     description: 'Live crowd density and wait-time updates to avoid queues.',
   },
   {
     title: 'Safety Alerts',
-    
+    icon: faExclamation,
     description: 'Immediate safety and evacuation notifications.',
   },
   {
     title: 'Multilingual & Accessible',
-    
+    icon: faLanguage,
     description: 'Portuguese and English support; accessibility-first UI.',
   },
   {
     title: 'Offline-First',
-    
+    icon: faSignal,
     description: 'Cache critical data for uninterrupted guidance during outages.',
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({title, icon, description}: FeatureItem) {
   return (
     <div className={(styles.featureCard)}>
       <div className={styles.iconWrap}>
-        <Svg className={styles.featureSvg} role="img" />
+        <FontAwesomeIcon icon={icon} className={styles.icon}/>
       </div>
       <div className={styles.cardBody}>
         <Heading as="h3">{title}</Heading>
