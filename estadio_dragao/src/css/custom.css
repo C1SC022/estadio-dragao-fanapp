@@ -28,3 +28,15 @@
   --ifm-color-primary-lightest: #ffffff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+
+/* Navbar link ativo - modo claro */
+.navbar__link--active {
+  color: var(--ifm-color-primary-light); /* cor desejada no dark mode */
+  font-weight: bold; /* opcional */
+}
+
+/* Navbar link ativo - modo escuro */
+[data-theme='dark'] .navbar__link--active {
+  color: var(--ifm-color-primary-dark); /* cor desejada para ativo */
+}
