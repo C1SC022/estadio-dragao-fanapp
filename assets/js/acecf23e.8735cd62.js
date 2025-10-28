@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkestadio_dragao=globalThis.webpackChunkestadio_dragao||[]).push([[1903],{1912:a=>{a.exports=JSON.parse('{"blogBasePath":"/estadio-dragao-fanapp/blog","blogTitle":"Blog","authorsListPath":"/estadio-dragao-fanapp/blog/authors"}')}}]);

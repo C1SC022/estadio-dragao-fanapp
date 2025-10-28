@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkestadio_dragao=globalThis.webpackChunkestadio_dragao||[]).push([[3485],{2085:a=>{a.exports=JSON.parse('{"metadata":{"permalink":"/estadio-dragao-fanapp/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
