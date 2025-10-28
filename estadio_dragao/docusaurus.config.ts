@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Estádio do Dragão - FanApp',
   tagline: 'Football made easier and safer',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/edd_logo.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -75,7 +75,7 @@ const config: Config = {
       title: 'Estádio do Dragão',
       logo: {
         alt: 'My App Logo',
-        src: 'img/logo.svg',
+        src: 'img/edd_logo.png',
       },
       items: [
         {
