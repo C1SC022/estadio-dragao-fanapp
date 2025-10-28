@@ -16,11 +16,11 @@ import { faUsers } from '@fortawesome/free-solid-svg-icons';
 
 function AboutMe() {
     const members = [
-        { name: 'Tomás Gameiro', role: 'Project Management', url: 'https://github.com/LeTomarrow', img_href: '/img/photos/Tomas_img.png' },
-        { name: 'Francisco Silva', role: 'Mobile / UI', url: 'https://github.com/C1SC022', img_href: '/img/photos/Francisco_img.jpg'  },
-        { name: 'João Cabral', role: 'Backend / APIs' , url: 'https://github.com/JoaoCabral05', img_href: '/img/photos/Joao_img.jpg' },
-        { name: 'Bernardo Martins', role: 'Modeling / Analytics' , url: 'https://github.com/Oxx05', img_href: '/img/photos/Bernardo_img.jpg'},
-        { name: 'Gonçalo Floro', role: 'QA / DevOps' , url: 'https://github.com/goncalo-floro', img_href: '/img/photos/Goncalo_img.jpg' },
+        { name: 'Tomás Gameiro', role: 'Project Management', url: 'https://github.com/LeTomarrow', img_href: 'img/photos/Tomas_img.png' },
+        { name: 'Francisco Silva', role: 'Mobile / UI', url: 'https://github.com/C1SC022', img_href: 'img/photos/Francisco_img.jpg'  },
+        { name: 'João Cabral', role: 'Backend / APIs' , url: 'https://github.com/JoaoCabral05', img_href: 'img/photos/Joao_img.jpg' },
+        { name: 'Bernardo Martins', role: 'Modeling / Analytics' , url: 'https://github.com/Oxx05', img_href: 'img/photos/Bernardo_img.jpg'},
+        { name: 'Gonçalo Floro', role: 'QA / DevOps' , url: 'https://github.com/goncalo-floro', img_href: 'img/photos/Goncalo_img.jpg' },
     ];
 
     const handleClick = (url: string) => {
