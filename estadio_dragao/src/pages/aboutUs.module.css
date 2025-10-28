@@ -15,12 +15,12 @@
 }
 
 .card {
-  background: #ffffff;
+  background: var(--ifm-);
   border-radius: 12px;
   padding: 1.25rem;
   box-shadow: 0 6px 18px rgba(20, 20, 20, 0.06);
   text-align: center;
-  color: #0b1726;
+  color: var(--ifm-);
   transition: transform 160ms ease, box-shadow 160ms ease;
   width: 100%;
   max-width: 260px; /* match column width */
