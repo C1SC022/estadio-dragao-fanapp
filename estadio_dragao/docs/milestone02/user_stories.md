@@ -5,36 +5,24 @@
 ### User Story 1  
   
 As a long-time fan who wants to minimize wait times and enhance stadium experience,   
-I want to know when and where are the queues   
-So that I can spend less time waiting for food or exits.  
-  
-### User Story 2  
-  
-As a fan who arrives late to the stadium,   
-I want to be recommended paths that avoid large queue times,  
-So that I can easily and rapidly get into the stadium.  
-  
----
+I want to know when and where are queues   
+so that I can spend less time waiting for foods or exits. 
 
+---
+  
 ## Persona 2 - First time/visiting fan  
   
 ### User Story 1  
   
-As a foreign fan who doesn’t speak portuguese,   
-I want the app to support my language,
-So that I can understand the instructions and be easilly guided through the stadium.  
+As foreigner fan that doesn’t speak portuguese,   
+I want the app to have my language,   
+so that I can understand the instructions and guide me easily through the stadium.  
   
 ### User Story 2  
   
 As a first time visiting fan,   
-I want to have a map that has clear and intuitive pathways to my seat and to bars,   
-So that I can orient myself in the stadium without getting lost.  
-  
-### User Story 3  
-  
-As a foreigner fan,   
-I want to be notified and receive instructions in case of an emergency,   
-So that I can easily evacuate the stadium
+I want to have a map that have clear and intuitive pathways to my seat and bars,   
+so that I can orient me in the stadium without getting lost.  
 
 ---
   
@@ -43,33 +31,27 @@ So that I can easily evacuate the stadium
 ### User Story 1  
   
 As a fan with walking issues,   
-I want to know the accessible paths,  
-So that I can circulate in security and without help.  
+I want to know the most accessible path to everywhere,  
+so that I can circulate in security and without help.  
   
-### User Story 2  
+### User Story 2
   
-As a fan with sensory issues,   
-I want the app to show the most occupied zone,  
-So that I can avoid the chaos and be safe.  
-  
-### User Story 3  
-  
-As a fan on a wheelchair,   
+As a wheelchair fan,   
 I want to have the option to request assistance in the app,   
-So that I can get help moving, quickly.  
+so that I can get help quickly.
   
 ---
-  
+
 ## Persona 4 - Safety-aware fan  
   
 ### User Story 1  
   
-As a fan who is a father and watches games with the family,   
-I want to have easy access to emergency routes,   
-So that my family can stay safe in emergency situations.  
+As a dad fan that go with the family,   
+I want to have easy access to the emergency pathways,   
+so that I can quickly protect my family.  
   
 ### User Story 2  
-  
-As a safety-aware fan,   
-I want to have a button for request emergency calls,   
-So that help can arrive quickly in case something happens.  
+
+As a dad who is a fan and goes with his family,
+I want to be notified quickly in case of an emergency,
+so that I can get my family to safety faster.

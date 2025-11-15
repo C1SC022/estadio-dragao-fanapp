@@ -16,21 +16,25 @@ Needs:
 - Dynamic routing to avoid crowded queues.
 - Reliable wait-time estimates for entrances, exits, and services.
 
+
+
 ## Persona 2 - First-Time/Visiting Fan
 
 + New visiting fan needing clear navigation and language support
 
-Name: Stan
+Name: Emma
 Age: 31
 Job: Pharmacist
 
-Description: Stan is a foreign fan attending international matches, and he is visiting the stadium for the first time. He's unfamiliar with the stadium layout and doens't speak Portuguese.
+Description: Emma is a foreign fan attending international matches, and she is visiting the stadium for the first time. She's unfamiliar with the stadium layout and doens't speak Portuguese.
 
 Frustrations: Fears getting lost in the large stadium, struggles to find services like the bar, and faces language barriers when seeking help.
 
 Needs:
 - Clear, intuitive wayfinding with directions to seats, bars, and other services.
 - Multilingual support (e.g., English, French, Portuguese) for app interface and instructions.
+
+
 
 ## Persona 3 - Accessibility-Focused Fan
 
@@ -47,11 +51,13 @@ Frustrations: Difficulty finding step-free paths to seats, overwhelming noise in
 Needs:
 - Step-free route options and clear accessibility information.
 
+
+
 ## Persona 4 - Safety-Aware Fan
 
 + Fan prioritizing safety and emergency
 
-Name: Josué
+Name: Josue
 Age: 65
 Job: Human Resources
 
