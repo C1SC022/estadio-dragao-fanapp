@@ -71,6 +71,18 @@ const sidebars: SidebarsConfig = {
           },
         ],
       },
+      {
+        type: 'doc',
+        id: 'milestone02/MVPAcceptanceCriteria_KPIs',
+      },
+      {
+        type: 'doc',
+        id: 'milestone02/risks',
+      },
+      {
+        type: 'doc',
+        id: 'milestone02/use_cases',
+      },
     ],
   },
 ],
