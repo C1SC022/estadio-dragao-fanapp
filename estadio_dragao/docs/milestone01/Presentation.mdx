@@ -2,11 +2,13 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import styles from './presentation.module.css';
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 export default function PresentationPage() {
   return (
       <div className={styles.pdfContainer}>
         <iframe
-          src="/img/Context.pdf#view=FitH"
+          src={useBaseUrl('files/Context.pdf#view=FitH')}
           width="80%"
           height="90%"
           style={{ border: 'none' }}

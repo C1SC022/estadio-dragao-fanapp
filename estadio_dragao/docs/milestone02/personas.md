@@ -20,12 +20,12 @@ Alberto is a dedicated club fan who frequently attends matches to enjoy the stad
 
 ### Persona 2 – First-Time / Visiting Fan
 
-**Name:** Pedro  
+**Name:** Emma  
 **Age:** 31  
 **Job:** Pharmacist
 
 **Description:**  
-Pedro is a foreign fan attending international matches, and he is visiting the stadium for the first time. He's unfamiliar with the stadium layout and doesn't speak Portuguese.
+Emma is a foreign fan attending international matches, and she is visiting the stadium for the first time. She's unfamiliar with the stadium layout and doens't speak Portuguese.
 
 **Frustrations:**
 - Fears getting lost in the large stadium, struggles to find services like the bar, and faces language barriers when seeking help.

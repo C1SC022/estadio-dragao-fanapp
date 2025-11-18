@@ -46,7 +46,7 @@ So that I can circulate safely and without help.
 - Accessibility routes avoid stairs and inaccessible areas
 - Accessibility route success rate ≥ 90%
   
-### User Story 2  
+### User Story 2
   
 As a fan with sensory issues,
 I want the app to show the most occupied zones,
@@ -58,7 +58,7 @@ So that I can avoid noisy or chaotic areas.
 - Accuracy ≥ 85% compared to real data
 
 ---
-  
+
 ## Persona 4 - Safety-aware fan  
   
 ### User Story 1  
