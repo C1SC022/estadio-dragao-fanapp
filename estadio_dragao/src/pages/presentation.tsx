@@ -4,7 +4,6 @@ import styles from './presentation.module.css';
 
 export default function PresentationPage() {
   return (
-    <Layout title="Presentation" description="Project Presentation">
       <main className={styles.main}>
         <div className={styles.pdfContainer}>
           <iframe
@@ -16,6 +15,5 @@ export default function PresentationPage() {
           />
         </div>
       </main>
-    </Layout>
   );
 }
