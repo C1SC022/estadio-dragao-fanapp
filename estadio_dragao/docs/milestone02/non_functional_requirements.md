@@ -1,4 +1,4 @@
-## Non-functional Requirements
+# Non-functional Requirements
 
 ### Capacity
 - Each user has a local cache of the map

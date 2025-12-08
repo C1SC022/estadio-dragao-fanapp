@@ -1,4 +1,4 @@
-## Personas / User Stories
+# Personas / User Stories
 
 ### Persona 1 – Local Fan
 

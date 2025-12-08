@@ -1,4 +1,4 @@
-## Functional Requirements
+# Functional Requirements
 
 ### Map & Path-finding
 - Show a map of the stadium with POIs

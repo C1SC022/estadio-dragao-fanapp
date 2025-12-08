@@ -106,7 +106,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/C1SC022/estadio-dragao-fanapp.github.io',
+              href: 'https://github.com/Estadio-do-Dragao-app',
             },
           ],
         },

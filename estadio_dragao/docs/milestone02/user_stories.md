@@ -29,7 +29,7 @@ So that I can understand the instructions and navigate easily through the stadiu
 **Acceptance Criteria:**
 - The app supports PT/EN and one additional language (e.g., FR)
 - All UI text, alerts, and instructions are fully translated
-- Language switch happens instantly (<1s)
+- Language switch happens instantly (\<1s)
 
 ---
   

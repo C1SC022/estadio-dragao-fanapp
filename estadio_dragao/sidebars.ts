@@ -44,7 +44,16 @@ const sidebars: SidebarsConfig = {
     type: 'category',
     label:'Milestone 02',
     items: [
-      
+      {
+        type: 'doc',
+        id: 'milestone02/Presentation',
+        label: 'Presentation',
+      },
+      {
+        type: 'doc',
+        id: 'milestone02/soa',
+        label: 'State of the Art',
+      },
       {
         type: 'doc',
         id: 'milestone02/personas',
@@ -52,10 +61,6 @@ const sidebars: SidebarsConfig = {
       {
         type:'doc',
         id: 'milestone02/user_stories',
-      },
-      {
-        type: 'doc',
-        id: 'milestone02/extras',
       },
       {
         type: 'category',
@@ -73,32 +78,41 @@ const sidebars: SidebarsConfig = {
       },
       {
         type: 'doc',
-        id: 'milestone02/MVPAcceptanceCriteria_KPIs',
+        id: 'milestone02/tech_stack',
       },
       {
         type: 'doc',
-        id: 'milestone02/risks',
+        id: 'milestone02/architecture',
+      },
+      {
+        type: 'doc',
+        id: 'milestone02/database',
       },
       {
         type: 'doc',
         id: 'milestone02/use_cases',
       },
+      {
+        type: 'doc',
+        id: 'milestone02/MVPAcceptanceCriteria_KPIs',
+      },
+      {
+        type: 'doc',
+        id: 'milestone02/workflows',
+      },
+      {
+        type: 'doc',
+        id: 'milestone02/mockups',
+      },
+      {
+        type: 'doc',
+        id: 'milestone02/risks_n_costs',
+      },
+      
     ],
   },
 ],
 
-  // But you can create a sidebar manually
-  /*
-  tutorialSidebar: [
-    'intro',
-    'hello',
-    {
-      type: 'category',
-      label: 'Tutorial',
-      items: ['tutorial-basics/create-a-document'],
-    },
-  ],
-   */
 };
 
 export default sidebars;
