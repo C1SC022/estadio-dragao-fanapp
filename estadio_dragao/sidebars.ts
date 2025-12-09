@@ -14,30 +14,16 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
  */
 const sidebars: SidebarsConfig = {
   // By default, Docusaurus generates a sidebar from the docs folder structure
-  calendarSidebar: [
-    {
-      type: 'category',
-      label: 'how',
-      items: [
-        {
-          type: 'doc',
-          id: 'how',
-        },
-      ],   
-    }
-  ],
   milestoneSidebar: [
   {
     type: 'category',
     label:'Milestone 01',
     items: [
       {
-  type: 'doc',
-  id: 'milestone01/Presentation',
-  label: 'Presentation',
-}
-
-
+        type: 'doc',
+        id: 'milestone01/Presentation',
+        label: 'Presentation',
+      }
     ],
   },
   {
@@ -109,6 +95,16 @@ const sidebars: SidebarsConfig = {
         id: 'milestone02/risks_n_costs',
       },
       
+    ],
+  },
+  {
+    type: 'category',
+    label:'Milestone 03',
+    items: [
+      {
+        type: 'doc',
+        id: 'milestone03/architecture',
+      }
     ],
   },
 ],
