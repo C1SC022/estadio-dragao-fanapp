@@ -34,11 +34,6 @@ const FeatureList: FeatureItem[] = [
     icon: faLanguage,
     description: 'Portuguese and English support; accessibility-first UI.',
   },
-  {
-    title: 'Offline-First',
-    icon: faSignal,
-    description: 'Cache critical data for uninterrupted guidance during outages.',
-  },
 ];
 
 function Feature({title, icon, description}: FeatureItem) {
@@ -56,8 +51,8 @@ function Feature({title, icon, description}: FeatureItem) {
 }
 
 export default function HomepageFeatures(): ReactNode {
-  const firstRow = FeatureList.slice(0, 3);
-  const secondRow = FeatureList.slice(3);
+  const firstRow = FeatureList.slice(0, 2);
+  const secondRow = FeatureList.slice(2);
 
   return (
     <section className={styles.features}>
@@ -69,7 +64,7 @@ export default function HomepageFeatures(): ReactNode {
         </div>
         <div className={styles.row}>
           {secondRow.map((props, idx) => (
-            <Feature key={idx + 3} {...props} />
+            <Feature key={idx + 2} {...props} />
           ))}
         </div>
       </div>
