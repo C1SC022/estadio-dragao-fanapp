@@ -17,9 +17,9 @@ FastAPI is a modern, fast (high-performance) web framework for building APIs wit
 **Justification**:
 PostgreSQL is a powerful, open-source relational database system known for its reliability, scalability, and advanced features. It is ideal for storing structured data such as tickets, maps, and user information, and supports complex queries required for analytics and reporting.
 
-### Redis
-**Justification**:
-Redis is an in-memory data store used for caching and fast data retrieval. In this architecture, Redis supports real-time features like alert handling and session management, ensuring low-latency access to frequently used data and improving overall app responsiveness.
+### Hive
+**Justification**:  
+Hive is a lightweight, fast key-value database designed specifically for Flutter applications. In this architecture, Hive is used as local cache storage on the client side, enabling quick access to frequently used data such as session information, user preferences, and pre-fetched navigation data. By operating directly on the device and requiring no native dependencies, Hive ensures low-latency data access, supports offline functionality, and improves overall application responsiveness—particularly in environments with unstable or limited network connectivity.
 
 ## Real-Time Communication
 ### Mosquitto (MQTT Broker)

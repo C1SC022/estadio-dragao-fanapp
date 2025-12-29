@@ -104,7 +104,25 @@ const sidebars: SidebarsConfig = {
       {
         type: 'doc',
         id: 'milestone03/architecture',
-      }
+      },
+      {
+        type: 'category',
+        label: 'Requirements',
+        items: [
+          {
+            type: 'doc',
+            id: 'milestone03/r_changes',
+          },
+          {
+            type: 'doc',
+            id: 'milestone03/fr',
+          },
+          {
+            type: 'doc',
+            id: 'milestone03/nfr',
+          },
+        ],
+      },
     ],
   },
 ],
