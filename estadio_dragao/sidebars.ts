@@ -128,6 +128,10 @@ const sidebars: SidebarsConfig = {
           },
         ],
       },
+      {
+        type: 'doc',
+        id: 'milestone03/workflows',
+      },
     ],
   },
 ],
