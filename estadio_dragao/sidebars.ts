@@ -1,4 +1,4 @@
-import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
+import type { SidebarsConfig } from '@docusaurus/plugin-content-docs';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -101,6 +101,11 @@ const sidebars: SidebarsConfig = {
     type: 'category',
     label:'Milestone 03',
     items: [
+      {
+          type: 'doc',
+          id: 'milestone03/Presentation',
+          label: 'Presentation',
+      },
       {
         type: 'doc',
         id: 'milestone03/architecture',

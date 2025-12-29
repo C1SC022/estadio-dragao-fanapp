@@ -1,7 +1,8 @@
-import type {ReactNode} from 'react';
+import type { ReactNode } from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
@@ -9,12 +10,12 @@ import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
 function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className={styles.heroInner}>
         <div className={styles.heroLeft}
-          >
+        >
           <Heading as="h1" className={styles.mainTitle}>
             Smart Stadium
           </Heading>
@@ -26,9 +27,6 @@ function HomepageHeader() {
           </p>
 
           <div className={styles.heroActions}>
-            <Link className="button button--primary button--lg" to="#">
-              Get the app
-            </Link>
             <Link className="button button--secondary button--lg" to="/docs/intro">
               Learn more
             </Link>
@@ -36,8 +34,11 @@ function HomepageHeader() {
         </div>
 
         <div className={styles.heroRight}>
-          {/* Image slot: place an <img src="/img/your-image.png" alt="App mockup" /> here */}
-          <div className={styles.imagePlaceholder} aria-hidden>App image</div>
+          <img
+            src={useBaseUrl('/img/Screenshot_2025-12-16-15-14-27-278_com.miui.videoplayer-edit.jpg')}
+            alt="App image"
+            className={styles.heroImage}
+          />
         </div>
       </div>
     </header>
@@ -45,7 +46,7 @@ function HomepageHeader() {
 }
 
 export default function Home(): ReactNode {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
