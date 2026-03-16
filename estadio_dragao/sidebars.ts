@@ -134,6 +134,30 @@ const sidebars: SidebarsConfig = {
       },
     ],
   },
+  {
+    type: 'category',
+    label:'Milestone 04',
+    items: [
+      {
+        type: 'doc',
+        id: 'milestone04/Presentation',
+        label: 'Presentation',
+      },
+      {
+        type: 'doc',
+        id: 'milestone04/changes',
+      },
+      {
+        type: 'doc',
+        id: 'milestone04/frontend_refactoring',
+      },
+      {
+        type: 'doc',
+        id: 'milestone04/usability',
+      }  
+      
+    ]
+  }
 ],
 
 };

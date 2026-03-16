@@ -20,7 +20,7 @@ export default function CalendarPage() {
       <main className={calendarStyles.main}>
         <div className={calendarStyles.calendarWrapper}>
             <img src="img/new_cal.png" alt="Calendar 1" className={calendarStyles.calendarImage} />
-            <img src="img/cal2.webp" alt="Calendar 2" className={calendarStyles.calendarImage} />
+            <img src="img/new_cal2.png" alt="Calendar 2" className={calendarStyles.calendarImage} />
         </div>
       </main>
     </Layout>
