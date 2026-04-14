@@ -1,0 +1,7 @@
+.pdfContainer {
+  width: 85vw;    /* ocupa 100% da largura da viewport */
+  height: 80vh;   /* ocupa 100% da altura da viewport */
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}

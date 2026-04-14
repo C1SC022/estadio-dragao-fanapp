@@ -157,7 +157,27 @@ const sidebars: SidebarsConfig = {
       }  
       
     ]
+  },
+  {
+    type: 'category',
+    label:'Milestone 05',
+    items: [
+      {
+        type: 'doc',
+        id: 'milestone05/Presentation',
+        label: 'Presentation',
+      },
+      {
+        type: 'doc',
+        id: 'milestone05/architecture',
+      },
+      {
+        type: 'doc',
+        id: 'milestone05/Dashboard',
+      }  
+    ]
   }
+
 ],
 
 };
