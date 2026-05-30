@@ -169,6 +169,10 @@ const sidebars: SidebarsConfig = {
       },
       {
         type: 'doc',
+        id: 'milestone05/changes',
+      },
+      {
+        type: 'doc',
         id: 'milestone05/architecture',
       },
       {
@@ -176,8 +180,58 @@ const sidebars: SidebarsConfig = {
         id: 'milestone05/Dashboard',
       }  
     ]
+  },
+  {
+    type: 'category',
+    label:'Milestone 06',
+    items: [
+      {
+        type: 'doc',
+        id: 'milestone06/Presentation',
+        label: 'Presentation',
+      },
+      {
+        type: 'doc',
+        id: 'milestone06/changes',
+      },
+    ]
+  },
+  {
+    type: 'category',
+    label:'Milestone 07',
+    items: [
+      {
+        type: 'doc',
+        id: 'milestone07/Presentation',
+        label: 'Presentation',
+      },
+      {
+        type: 'doc',
+        id: 'milestone07/changes',
+      },
+    ]
+  },
+  {
+    type: 'category',
+    label:'Milestone 08',
+    items: [
+      {
+        type: 'doc',
+        id: 'milestone08/Presentation',
+        label: 'Presentation',
+      },
+      {
+        type: 'doc',
+        id: 'milestone08/Poster',
+        label: 'Poster',
+      },
+      // Video removed per request
+      {
+        type: 'doc',
+        id: 'milestone08/changes',
+      },
+    ]
   }
-
 ],
 
 };
