@@ -17,10 +17,10 @@ function HomepageHeader() {
         <div className={styles.heroLeft}
         >
           <Heading as="h1" className={styles.mainTitle}>
-            Smart Stadium
+            RUA - Smart Campus Life
           </Heading>
 
-          <p className={styles.subTitle}>A better game-day, in your pocket</p>
+          <p className={styles.subTitle}>A better and faster university experience, in your pocket</p>
 
           <p className={styles.heroDesc}>
             Real-time navigation, crowd insights and safety alerts — fast, private.
@@ -35,7 +35,7 @@ function HomepageHeader() {
 
         <div className={styles.heroRight}>
           <img
-            src={useBaseUrl('/img/Screenshot_2025-12-16-15-14-27-278_com.miui.videoplayer-edit.jpg')}
+            src={useBaseUrl('/img/app_screenshot.jpeg')}
             alt="App image"
             className={styles.heroImage}
           />

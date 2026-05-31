@@ -1,25 +1,27 @@
 # Introduction
 
-Welcome to the **Dragão Stadium Fan App** documentation! This project aims to revolutionize the spectator experience by providing a comprehensive digital companion for stadium visitors.
+Welcome to the **RUA** documentation. This project now focuses on **campus navigation for the University of Aveiro**, providing a digital companion for students, visitors, and staff as they move across campus.
 
-Our application addresses key challenges in large venue management, specifically focusing on **crowd control**, **indoor navigation**, and **safety**. Whether you are looking for your seat, the nearest concession stand, or the fastest exit in an emergency, our app provides real-time, intelligent solutions to ensure a smooth and safe experience.
+The application helps users find buildings, services, and accessible routes while also giving a better view of crowd density and safety-relevant information. Instead of a stadium-first experience, the project now centers on **outdoor campus mobility**, **real-time location guidance**, and **campus-wide wayfinding**.
 
 ## Key Features
 
-### Intelligent Indoor Navigation
-Navigate the stadium with ease using our turn-by-turn guidance system.
-- **Find Your Seat**: effortless routing from the entrance gate directly to your assigned seat.
-- **POIs**: Locate restrooms, food stalls, and other points of interest.
-- **Accessibility**: Customized routes that avoid stairs for users with reduced mobility.
+### Smart Campus Navigation
+Navigate the campus with turn-by-turn guidance that adapts to different needs.
+- **Find Locations**: route to buildings, entrances, services, and other points of interest.
+- **Accessibility**: choose routes that avoid stairs and favor ramps or elevators when needed.
+- **Route Preview**: review a path before starting navigation.
 
-### Real-Time Insights & Heatmaps
-Avoid the crowds and save time.
-- **Live Congestion Data**: Visual heatmaps showing real-time crowd density.
-- **Wait Times**: accurate estimates for lines at concession stands and restrooms.
+### Real-Time Occupancy & Rerouting
+Use live context to make better movement decisions.
+- **Heatmaps**: visualize where campus areas are busier.
+- **Dynamic Rerouting**: adjust a route when congestion or delays appear.
+- **Favorites**: quickly access frequently used places on campus.
 
-### Smart Safety & Emergency Systems
-Your safety is our priority.
-- **Emergency Alerts**: Instant notifications in case of incidents (e.g., fire, evacuation).
-- **Dynamic Rerouting**: Intelligent navigation that guides you away from hazardous areas to the safest nearest exit.
+### Safety & Guidance
+Stay informed while moving around campus.
+- **Alerts**: receive important notifications when conditions change.
+- **Location Awareness**: use mobile device signals to support navigation when GPS is less reliable.
+- **Campus Support**: manage and update map nodes through the project dashboard.
 
-Explore the documentation to learn more about the architecture, requirements, and technology stack behind the Dragão Stadium Fan App.
+Explore the documentation to learn more about the architecture, requirements, and implementation details behind the campus navigation platform.

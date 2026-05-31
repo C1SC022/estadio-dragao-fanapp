@@ -5,9 +5,9 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Estádio do Dragão - FanApp',
-  tagline: 'Football made easier and safer',
-  favicon: 'img/edd_logo.png',
+  title: 'RUA',
+  tagline: 'A better and faster university experience, in your pocket',
+  favicon: 'img/rua_logo.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -72,10 +72,10 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'Estádio do Dragão',
+      title: 'RUA',
       logo: {
         alt: 'My App Logo',
-        src: 'img/edd_logo.png',
+        src: 'img/rua_logo.png',
       },
       items: [
         {

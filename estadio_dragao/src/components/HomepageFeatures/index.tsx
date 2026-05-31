@@ -4,7 +4,7 @@ import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faRoute, faSignal, faLanguage, faExclamation, faMapLocationDot, IconDefinition} from '@fortawesome/free-solid-svg-icons';
+import {faRoute, faSignal, faLanguage, faExclamation, faMapLocationDot, IconDefinition, faMap} from '@fortawesome/free-solid-svg-icons';
 
 type FeatureItem = {
   title: string;
@@ -15,14 +15,19 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Smart Indoor Navigation',
+    title: 'Smart Outdoor Navigation',
     icon: faRoute,
-    description: 'Guide fans to entrances, seats and exits; dynamic re-routing.',
+    description: 'GPS-based route guidance with real-time congestion avoidance.',
   },
   {
     title: 'Real-Time Congestion',
     icon: faMapLocationDot,
     description: 'Live crowd density and wait-time updates to avoid queues.',
+  },
+  {
+    title: 'Administrative Map Capabilities',
+    icon: faMap,
+    description: 'Dashboard that enables map edition through node and edge management.',
   },
   {
     title: 'Safety Alerts',

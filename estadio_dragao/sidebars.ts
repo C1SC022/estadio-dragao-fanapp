@@ -16,6 +16,11 @@ const sidebars: SidebarsConfig = {
   // By default, Docusaurus generates a sidebar from the docs folder structure
   milestoneSidebar: [
   {
+    type: 'doc',
+    id: 'context',
+    label: 'Project Context',
+  },
+  {
     type: 'category',
     label:'Milestone 01',
     items: [
