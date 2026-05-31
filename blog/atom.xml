@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://C1SC022.github.io/estadio-dragao-fanapp/blog</id>
-    <title>Estádio do Dragão - FanApp Blog</title>
+    <title>RUA Blog</title>
     <updated>2021-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://C1SC022.github.io/estadio-dragao-fanapp/blog"/>
-    <subtitle>Estádio do Dragão - FanApp Blog</subtitle>
-    <icon>https://C1SC022.github.io/estadio-dragao-fanapp/img/edd_logo.png</icon>
+    <subtitle>RUA Blog</subtitle>
+    <icon>https://C1SC022.github.io/estadio-dragao-fanapp/img/rua_logo.png</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>https://C1SC022.github.io/estadio-dragao-fanapp/blog/welcome</id>
